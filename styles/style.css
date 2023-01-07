@@ -490,8 +490,14 @@
     object-fit: cover;
   }
   .baths__image{
-    height: 70vh;
+    height: 60vh;
   }
+  .bridge__image {
+    width: 100%;
+    margin: 0 auto;
+    object-position: bottom;
+    height: 20vh;
+    }
 }
 
 @media (max-width: 800px) {
@@ -515,8 +521,21 @@
       display: block;
       margin: auto;
       margin-top: 20px;
-    text-align: center;
+      text-align: center;
     }
+}
+
+@media (max-width: 500px) {
+  .bridge__image-container{
+    height: 70vh;
+  }
+  .bridge__image{
+    height: 50vh;
+    width: 100%;
+  }
+  .image__text{
+    width: 100%;
+  }
 }
 
 
