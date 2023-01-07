@@ -486,7 +486,7 @@
     font-size: 14px;
   }
   .garden__image{
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;
   }
   .baths__image{
@@ -535,6 +535,7 @@
   }
   .image__text{
     width: 100%;
+    font-size: 14px;
   }
 }
 
