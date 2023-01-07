@@ -491,6 +491,8 @@
   .garden__image_container_text{
     font-size: 14px;
     width: 90%;
+    display: block;
+    margin: auto;
   }
   .garden__image{
     height: 60vh;
