@@ -489,6 +489,9 @@
     height: 100vh;
     object-fit: cover;
   }
+  .baths__image{
+    height: 70vh;
+  }
 }
 
 @media (max-width: 800px) {
