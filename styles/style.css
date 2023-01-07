@@ -492,7 +492,7 @@
     font-size: 14px;
     width: 90%;
     display: block;
-    margin: auto;
+    margin: auto 1%;
   }
   .garden__image{
     height: 60vh;
