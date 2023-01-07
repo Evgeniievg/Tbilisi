@@ -444,6 +444,10 @@
   .swiper{
     max-width: 90%;
   }
+  .garden__image{
+    height: 100vh;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 763px) {
@@ -453,6 +457,11 @@
   .garden__container{
     width: 90%;
   }
+  .garden__image{
+    height: 100vh;
+    object-fit: cover;
+  }
+
 }
 
 @media (max-width: 550px) {
@@ -474,7 +483,11 @@
     max-width: 100%;
   }
   .garden__image_container_text{
-    font-size: 10px;
+    font-size: 14px;
+  }
+  .garden__image{
+    height: 100vh;
+    object-fit: cover;
   }
 }
 
