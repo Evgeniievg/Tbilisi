@@ -478,16 +478,25 @@
   .oldtown__image{
     height: 350px;
   }
+  .garden__container{
+    width: 100%;
+  }
+  .garden__image_container{
+    width: 100%;
+  }
   .garden__image_container_texts{
     left: 5%;
     max-width: 100%;
   }
   .garden__image_container_text{
     font-size: 14px;
+    width: 90%;
   }
   .garden__image{
-    height: 80vh;
+    height: 60vh;
+    width: 90%;
     object-fit: cover;
+    margin: auto;
   }
   .baths__image{
     height: 60vh;
@@ -535,7 +544,7 @@
   }
   .image__text{
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
